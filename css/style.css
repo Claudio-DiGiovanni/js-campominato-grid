@@ -35,12 +35,26 @@ body{
     cursor: pointer;
 }
 
+.cell.medium{
+    width: calc(100% / 9);
+}
+
+.cell.big{
+    width: calc(100% / 7);
+}
+
 .cell.active{
     background-color: aqua;
 }
 
 button{
     margin-bottom: 3rem;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+select{
     width: 200px;
     font-size: 20px;
     cursor: pointer;
